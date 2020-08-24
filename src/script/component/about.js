@@ -7,7 +7,7 @@ class AboutPage extends HTMLElement {
     this.innerHTML = `
 	<section class="pt-11 pb-10 pt-lg-14 pb-lg-13">
 		<div class="floating-objects">
-			<img src="./src/assets/banners/night.jpg" class="img-fluid" alt="Day Image">
+			<img id="banner_utama" src="./src/assets/banners/night.jpg" class="img-fluid" alt="Day Image">
 		</div>
 		<div class="container">
 			<div class="row align-items-center justify-content-center text-center">
@@ -71,8 +71,15 @@ class AboutPage extends HTMLElement {
 	</div>
 </div>
 </section>
-    `;
-  }
+	`;
+	let darkLight = document.querySelectorAll('svg[id*="mode"]');
+	darkLight.map(Element => {
+		Element.addEvenetListener('click',() => {
+			
+		})
+	})
+}
+  
 }
 
 customElements.define('about-page', AboutPage);
