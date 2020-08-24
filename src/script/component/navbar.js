@@ -62,16 +62,15 @@ class AppBar extends HTMLElement {
       //script untuk merubah tampilan background kalau discroll
       window.onscroll = function() {
         if(window.pageYOffset >= 40){
+          window.innerWidth <= 991 ? navBarCollapse.style.display = "inline-block" : navBarCollapse.style.display = "none";
           if(navBar.classList.contains('navbar-dark')){
             navBar.classList.remove('bg-transparent');
             navBar.classList.add('bg-dark');
-            navBarCollapse.style.display = "inline-block"
-            logoFillColor.style.fill = "black";
+            logoFillColor.style.fill = "white";
           }else{
             navBar.classList.remove('bg-transparent');
             navBar.classList.add('bg-light');
-            navBarCollapse.style.display = "inline-block"
-            logoFillColor.style.fill = "white";
+            logoFillColor.style.fill = "black";
           }
         }else{
           logoFillColor.style.fill = "red";
@@ -81,7 +80,6 @@ class AppBar extends HTMLElement {
           }else{
             navBar.classList.add('bg-transparent');
             navBar.classList.remove('bg-light');
-            
           }
         }
       };

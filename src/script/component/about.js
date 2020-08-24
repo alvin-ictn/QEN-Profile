@@ -7,7 +7,7 @@ class AboutPage extends HTMLElement {
     this.innerHTML = `
 	<section class="pt-11 pb-10 pt-lg-14 pb-lg-13">
 		<div class="floating-objects">
-			<img src="./src/assets/banners/day.jpg" class="img-fluid" alt="Day Image">
+			<img src="./src/assets/banners/night.jpg" class="img-fluid" alt="Day Image">
 		</div>
 		<div class="container">
 			<div class="row align-items-center justify-content-center text-center">
