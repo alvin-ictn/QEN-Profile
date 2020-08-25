@@ -7,7 +7,7 @@ class HomeScreen extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-    <section style="margin-bottom:400px" id="#utama" class="pt-11 pb-10 pt-lg-14 pb-lg-13">
+    <section id="#utama" class="pt-11 pb-10 pt-lg-14 pb-lg-13">
       <div class="floating-objects">
         <img id="banner_utama" src="./src/assets/banners/${(this.time.getHours() > 18 || this.time.getHours() <= 5) ? 'night' : 'day'}.jpg" class="img-fluid" alt="Day Image">
       </div>

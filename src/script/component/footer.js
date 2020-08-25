@@ -1,4 +1,4 @@
-class HomeScreen extends HTMLElement {
+class FooterSide extends HTMLElement {
   constructor() {
 	super();
 	this.time = new Date();
@@ -49,4 +49,4 @@ class HomeScreen extends HTMLElement {
   
 }
 
-customElements.define('home-screen', HomeScreen);
+customElements.define('footer-page', FooterSide);

@@ -31,16 +31,16 @@ class AppBar extends HTMLElement {
                   <a class="nav-link" href="#tentang">Tentang</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Visi & Misi</a>
+                  <a class="nav-link" href="#visimisi">Visi & Misi</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#struktur">Struktur</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#galeri">Struktur</a>
+                  <a class="nav-link" href="#galeri">Galeri</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">Struktur</a>
+                  <a class="nav-link" href="#contact">Kontak</a>
                 </li>
               </ul>
             </div>
