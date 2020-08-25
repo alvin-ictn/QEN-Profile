@@ -1,83 +1,28 @@
 class AboutPage extends HTMLElement {
   constructor() {
-    super();
+	super();
+	this.time = new Date();
+	this.time.setHours(this.time.getHours());
   }
 
   connectedCallback() {
     this.innerHTML = `
-	<section class="pt-11 pb-10 pt-lg-14 pb-lg-13">
-		<div class="floating-objects">
-			<img id="banner_utama" src="./src/assets/banners/night.jpg" class="img-fluid" alt="Day Image">
-		</div>
-		<div class="container">
-			<div class="row align-items-center justify-content-center text-center">
-				<div class="col-md-10 col-lg-7 aos-init aos-animate" data-aos="fade-down">
-					<h1 class="display-4">The beauty of 
-						<span class="font-weight-lighter">simplicity</span>
-					</h1>
-					<p class="mb-6">Square, a fully flexible Bootstrap theme that utilises timeless Swiss influenced graphic design and typography to create beautiful responsive websites</p>
-					<a href="#pages" data-scroll="" class="btn btn-primary text-uppercase d-inline-flex align-items-center">Explore pages
-						<svg width="16" height="16" class="ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-							<title>arrow-right-1</title>
-							<path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z">
-							</path>
-						</svg>
-					</a>
+	<section id="tentang" class="pt-11 pb-10 pt-lg-14 pb-lg-13">
+		<h1 style="margin-left:20px;">Tentang Kita</h1>
+			<div class="row" style="margin-left:0;margin-right:0;">
+				<div class="col-7 bg-dark text-light" style="padding:10vw;">
+					<p>
+					<strong style="padding:0.3px 5px" style="padding:0.3px 5px" class="rounded bg-light text-dark">PT.QYLA ESTU NST (PT.QEN)</strong> Adalah perusahaan jasa konstruksi alat berat terbesar yang ada <strong style="padding:0.3px 5px" class="rounded bg-primary text-light">di Riau</strong> semenjak <strong style="padding:0.3px 5px" class="rounded bg-success text-light">26 Februari 2020.</strong> Perusahaan ini lahir untuk membawa perubahan bagi ekonomi negara dan untuk  menunjukan kualitas <strong style="padding:0.3px 5px" class="rounded bg-info text-dark">daya saing</strong> sumber daya softskill yang kita miliki mampu bersaing secara global dengan hasil kerja yang optimal dan efisien sehingga membuat kemajuan-kemajuan yang berguna bagi client juga masyarakat banyak nantinya. 
+					</p>
+				</div>
+				<div class="col-5 bg-light text-dark" style="padding:10vw">
+					<p>
+					<strong style="padding:0.3px 5px" class="rounded bg-dark text-light">PT.QYLA ESTU NST</strong> sekarang ini walau masih merupakan perusahaan baru namun sudah membuat prestasi di client perdana nya yaitu sebagai kontraktor pekerjaan <strong style="padding:0.3px 5px" class="rounded bg-danger text-light">land clearing</strong> lahan akasia menggunakan alat berat excavator.
+					</p>
 				</div>
 			</div>
-		</div>
 	</section>
-	<section class="pt-11 pb-10 pt-lg-14 pb-lg-13">
-	<div class="floating-objects">
-		<img src="./src/assets/banners/day.jpg" class="img-fluid" alt="Day Image">
-	</div>
-	<div class="container">
-		<div class="row align-items-center justify-content-center text-center">
-			<div class="col-md-10 col-lg-7 aos-init aos-animate" data-aos="fade-down">
-				<h1 class="display-4">The beauty of 
-					<span class="font-weight-lighter">simplicity</span>
-				</h1>
-				<p class="mb-6">Square, a fully flexible Bootstrap theme that utilises timeless Swiss influenced graphic design and typography to create beautiful responsive websites</p>
-				<a href="#pages" data-scroll="" class="btn btn-primary text-uppercase d-inline-flex align-items-center">Explore pages
-					<svg width="16" height="16" class="ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-						<title>arrow-right-1</title>
-						<path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z">
-						</path>
-					</svg>
-				</a>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="pt-11 pb-10 pt-lg-14 pb-lg-13">
-<div class="floating-objects">
-	<img src="./src/assets/banners/day.jpg" class="img-fluid" alt="Day Image">
-</div>
-<div class="container">
-	<div class="row align-items-center justify-content-center text-center">
-		<div class="col-md-10 col-lg-7 aos-init aos-animate" data-aos="fade-down">
-			<h1 class="display-4">The beauty of 
-				<span class="font-weight-lighter">simplicity</span>
-			</h1>
-			<p class="mb-6">Square, a fully flexible Bootstrap theme that utilises timeless Swiss influenced graphic design and typography to create beautiful responsive websites</p>
-			<a href="#pages" data-scroll="" class="btn btn-primary text-uppercase d-inline-flex align-items-center">Explore pages
-				<svg width="16" height="16" class="ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-					<title>arrow-right-1</title>
-					<path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z">
-					</path>
-				</svg>
-			</a>
-		</div>
-	</div>
-</div>
-</section>
 	`;
-	let darkLight = document.querySelectorAll('svg[id*="mode"]');
-	darkLight.map(Element => {
-		Element.addEvenetListener('click',() => {
-			
-		})
-	})
 }
   
 }
