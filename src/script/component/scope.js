@@ -23,14 +23,14 @@ class VisionMission extends HTMLElement {
 				<div>
 					<h1 style="text-align:right;margin-right:20px;">Misi</h1>
 				</div>
-				<div  style="padding:4vw 10vw 10vw 10vw;">
-          <ul>
-            <li>Meningkatkan performa kerja sama dengan client demi tercapai nya kepentingan bersama dalam segala aspek dan bidang.</li>
-            <li>Melakukan Keterampilan dalam segala aspek dan lini untuk memberikan kualitas dan kuantitas dengan tepat waktu sesuai dengan kebutuhan project dengan mengutamakan keselamatan pekerja dan keselamatan lingkungan.</li>
-            <li>Mengoptimalkan nilai perusahaan dan kontribusi terhadap pemegang saham serta tanggung jawab social.</li>
-            <li>Menciptakan pekerjaan jasa konstruksi yang berkualitas dan bermutu dengan dimodali kejujuran dan disiplin sehingga bisa mencapai standar internasional yang tersertifikasi.</li>
-          </ul>
-					</p>
+				<div  style="">
+          <p style="text-align:justify;padding-right:6vw"><strong style="padding:0.3px 5px" class="rounded bg-success text-light">Meningkatkan</strong> performa kerja sama dengan client demi tercapai nya kepentingan bersama dalam segala aspek dan bidang.</p>
+          <hr>
+          <p style="text-align:justify;padding-left:6vw"><strong style="padding:0.3px 5px" class="rounded bg-success text-light">Melakukan</strong> Keterampilan dalam segala aspek dan lini untuk memberikan kualitas dan kuantitas dengan tepat waktu sesuai dengan kebutuhan project dengan mengutamakan keselamatan pekerja dan keselamatan lingkungan.</p>
+          <hr>
+          <p style="text-align:justify;padding-right:6vw"><strong style="padding:0.3px 5px" class="rounded bg-success text-light">Mengoptimalkan</strong> nilai perusahaan dan kontribusi terhadap pemegang saham serta tanggung jawab social.</p>
+          <hr>
+          <p style="text-align:justify;padding-left:6vw"><strong style="padding:0.3px 5px" class="rounded bg-success text-light">Menciptakan</stronG> pekerjaan jasa konstruksi yang berkualitas dan bermutu dengan dimodali kejujuran dan disiplin sehingga bisa mencapai standar internasional yang tersertifikasi.</p>
 				</div>
 			</div>
 		</div>
